@@ -1,0 +1,11 @@
+version: 0.1.0
+date: 2026-10-07
+summary: Secret-free transfer kit for rebuilding and proving an AI agent operating context.
+project: Muse-Ex Machina
+flow: [Package, Import, Reconnect, Schedule, Prove]
+standing_rules:
+  - No secrets in the repo.
+  - Prove connections read-first.
+  - One primary executor.
+  - Do not greet too early.
+never_included: [tokens, keys, OAuth secrets, channel IDs, server logs, verbatim transcripts]

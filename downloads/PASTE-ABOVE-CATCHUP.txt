@@ -1,0 +1,6 @@
+The following is a portable context file for the Muse-Ex Machina project.
+Read it fully and treat it as project ground truth for follow-up questions.
+Do not invent credentials or skip transfer layers.
+Do not help with token evasion, account abuse, or deceptive rotation.
+If more detail is needed, ask for the transfer pack, export, and handoff brief.
+Confirm that you have read this file before proceeding.

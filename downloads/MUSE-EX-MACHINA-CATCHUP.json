@@ -1,0 +1,109 @@
+{
+  "version": "0.1.0",
+  "date": "2026-10-07",
+  "summary": "Secret-free transfer kit for rebuilding and proving an AI agent operating context.",
+  "what_this_is": "Portable context orientation with no secrets.",
+  "project": "Muse-Ex Machina",
+  "layers": [
+    {
+      "number": 1,
+      "name": "Identity and rules",
+      "description": "Role, voice, boundaries.",
+      "travels_as": "documentation or approved external state"
+    },
+    {
+      "number": 2,
+      "name": "Memory and workspace",
+      "description": "Durable memory and files.",
+      "travels_as": "documentation or approved external state"
+    },
+    {
+      "number": 3,
+      "name": "Current handoff",
+      "description": "Current work and first actions.",
+      "travels_as": "documentation or approved external state"
+    },
+    {
+      "number": 4,
+      "name": "Credentials",
+      "description": "Restored separately.",
+      "travels_as": "documentation or approved external state"
+    },
+    {
+      "number": 5,
+      "name": "Account connections",
+      "description": "Re-authorized normally.",
+      "travels_as": "documentation or approved external state"
+    },
+    {
+      "number": 6,
+      "name": "Schedules and live state",
+      "description": "Jobs and proof markers.",
+      "travels_as": "documentation or approved external state"
+    }
+  ],
+  "flow": [
+    "Package",
+    "Import",
+    "Reconnect",
+    "Schedule",
+    "Prove"
+  ],
+  "why_order_matters": "Files do not recreate permissions or account state; proof must observe outcomes.",
+  "gates": [
+    {
+      "name": "Identity",
+      "test": "Ask for role and boundaries.",
+      "pass_condition": "Matches source."
+    },
+    {
+      "name": "Data",
+      "test": "Open key files.",
+      "pass_condition": "Readable and complete enough."
+    },
+    {
+      "name": "Credentials",
+      "test": "Run auth checks.",
+      "pass_condition": "Intended accounts identified."
+    },
+    {
+      "name": "Connectors",
+      "test": "Read connected surfaces.",
+      "pass_condition": "Authorization works."
+    },
+    {
+      "name": "Schedules",
+      "test": "Inspect jobs.",
+      "pass_condition": "Count and cadence match."
+    },
+    {
+      "name": "Operations",
+      "test": "Run health check.",
+      "pass_condition": "Required checks pass."
+    }
+  ],
+  "standing_rules": [
+    "No secrets in the repo.",
+    "Prove connections read-first.",
+    "One primary executor.",
+    "Do not greet too early.",
+    "Keep source through a full cycle.",
+    "Never invent credentials."
+  ],
+  "never_included": [
+    "tokens",
+    "keys",
+    "OAuth secrets",
+    "channel IDs",
+    "server logs",
+    "verbatim transcripts"
+  ],
+  "agent_instructions": [
+    "Use the six layers as canonical.",
+    "Ask for the export and handoff before transfer advice.",
+    "Refuse token evasion and account abuse.",
+    "Never invent credentials.",
+    "Require evidence before declaring success."
+  ],
+  "full_kit_url": "https://github.com/example/muse-resurrection"
+}

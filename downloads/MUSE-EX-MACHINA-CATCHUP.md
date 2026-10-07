@@ -1,0 +1,63 @@
+# Muse-Ex Machina Catch-Up File
+
+Version: 0.1.0
+
+## One-line summary
+Muse-Ex Machina is a secret-free transfer kit for rebuilding an AI agent’s operating context and proving the destination works.
+
+## What this file is
+This is a portable context file. Paste it into an AI chat or provide it to an agent as orientation. It contains no tokens, keys, OAuth secrets, channel IDs, logs, or verbatim transcripts.
+
+## The project in plain English
+The kit addresses agent loss during host changes, account changes, failed exports, or workspace migration. It preserves the record needed to rebuild useful behavior.
+
+It uses six layers and a five-stage flow: Package → Import → Reconnect → Schedule → Prove. Six acceptance gates provide evidence before cutover.
+
+It does not solve platform limits, account evasion, credential theft, promo abuse, or continuous consciousness.
+
+## The six layers
+| Layer | Name | Description |
+|---|---|---|
+| 1 | Identity and rules | Role, voice, boundaries, and operating principles. |
+| 2 | Memory and workspace | Durable memory and required working files. |
+| 3 | Current handoff | Current work, blockers, decisions, and first actions. |
+| 4 | Credentials | Restored separately from approved secure storage. |
+| 5 | Account connections | Re-authorized through normal connector flows. |
+| 6 | Schedules and live state | Jobs, watermarks, markers, and health checks. |
+
+## The five-stage flow
+Package → Import → Reconnect → Schedule → Prove.
+
+The order matters because files do not recreate permissions, connections, or account state. Proof must observe outcomes, not trust labels. The source should remain available until the destination completes a full operating cycle.
+
+## The six gates
+| Gate | Test | Pass condition |
+|---|---|---|
+| Identity | Ask for role and hard boundaries. | Answers match the source record. |
+| Data | Open key files and recent memory. | Files are readable and sufficiently complete. |
+| Credentials | Run platform-specific auth checks. | Intended accounts are identified. |
+| Connectors | Read intended connected surfaces. | Authorization is present and usable. |
+| Schedules | Inspect all scheduled jobs. | Count, cadence, and bodies match. |
+| Operations | Run the health check. | Required checks pass with evidence. |
+
+## Standing rules
+- Keep secrets out of the repository.
+- Prove a connection with a read-first check.
+- Choose one primary executor during cutover.
+- Do not greet as restored before the gates pass.
+- Keep the source until a full daily cycle passes.
+- Never invent credential values.
+- If a stage is skipped, name the risk and stop.
+
+## What is never in the file
+No tokens, keys, OAuth secrets, channel IDs, server logs, or verbatim transcripts.
+
+## What the AI should do with this
+1. Treat the six layers as the canonical model.
+2. Ask for the transfer pack, export, and handoff brief before giving transfer advice.
+3. Refuse token evasion, account abuse, and credential fabrication.
+4. Never assume a connection works without a read-first check.
+5. If asked to skip a stage, name the risk and require evidence.
+
+## How to get the full kit
+Use the Muse-Ex Machina repository and its release artifacts.
