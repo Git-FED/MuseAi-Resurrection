@@ -1,6 +1,6 @@
 # Muse-Ex Machina / Muse Resurrection
 
-<img width="2560" height="1440" alt="muse_ex_machina_11_manga" src="https://github.com/user-attachments/assets/a6cf5097-9011-4740-ac91-37e54b8c3538" />
+<img width="2560" height="1440" alt="muse_ex_machina_2_ramen" src="https://github.com/user-attachments/assets/5d9ae5aa-cf71-4cb5-aedf-f15b818cd4cb" />
 
 A portable, honest transfer kit for rebuilding an AI agent's operating context after a host, account, or workspace change.
 
